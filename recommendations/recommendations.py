@@ -8,6 +8,7 @@ from recommendations_pb2 import (
     BookCategory,
     BookRecommendation,
     RecommendationResponse,
+    RecommendationRequest
 )
 import recommendations_pb2_grpc
 
