@@ -10,4 +10,4 @@ def test_recommendations():
         user_id=1, category=BookCategory.MYSTERY, max_results=1
     )
     response = service.Recommend(request, None)
-    assert len(response.recommendations) == 1
+    assert len(response.recommendations) == 1d
